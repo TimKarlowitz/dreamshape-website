@@ -68,7 +68,7 @@ export default function TermsOfUse() {
           Software is transferred to you. You further acknowledge that title and
           full ownership rights to the Software will remain the exclusive
           property of Dreamshape, and you will not acquire any rights to the
-          Software. You shall not remove or obscure the Owner's copyright,
+          Software. You shall not remove or obscure the Owner&apos;s copyright,
           trademark or other proprietary notices from any of the materials
           contained in this package or downloaded together with the Software.
         </p>
@@ -77,13 +77,14 @@ export default function TermsOfUse() {
           4. DISCLAIMER OF WARRANTY.
         </h2>
         <p className="mb-4">
-          The Software is provided "AS IS", without warranty of any kind. We
-          disclaim and make no express or implied warranties and specifically
-          disclaim the warranties of merchantability, fitness for a particular
-          purpose and non-infringement of third-party rights. The entire risk as
-          to the quality and performance of the Software is with you. We do not
-          warrant that the functions contained in the Software will meet your
-          requirements or that the operation of the Software will be error-free.
+          The Software is provided &quot;AS IS&quot;, without warranty of any
+          kind. We disclaim and make no express or implied warranties and
+          specifically disclaim the warranties of merchantability, fitness for a
+          particular purpose and non-infringement of third-party rights. The
+          entire risk as to the quality and performance of the Software is with
+          you. We do not warrant that the functions contained in the Software
+          will meet your requirements or that the operation of the Software will
+          be error-free.
         </p>
 
         <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">
