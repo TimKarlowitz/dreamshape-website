@@ -8,10 +8,10 @@ export default function Home() {
   const [expanded, setExpanded] = React.useState(false);
 
   return (
-    <div className="relative bg-gradient-to-b from-gray-950 to-gray-900">
-      <header className="absolute inset-x-0 top-0 z-10 w-full">
-        <div className="px-4 mx-auto sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 lg:h-20">
+    <div className="relative bg-gradient-to-b from-gray-950 to-gray-900 h-screen">
+      <header className="absolute inset-x-0 top-0 z-10 w-full h-screen">
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 h-screen">
+          <div className="flex items-center justify-between h-16 lg:h-20 h-screen">
             <div className="flex-shrink-0">
               <a href="#" title="" className="flex">
                 <div className="uppercase w-auto font-semibold text-2xl text-violet-300">
@@ -41,13 +41,6 @@ export default function Home() {
                 className="text-base text-white transition-all duration-200 hover:text-opacity-80 px-5"
               >
                 Pricing
-              </a>
-              <a
-                href="#"
-                title=""
-                className="text-base text-white transition-all duration-200 hover:text-opacity-80 px-5"
-              >
-                Legal
               </a>
             </div>
 
@@ -108,7 +101,7 @@ export default function Home() {
                 <div>
                   <h1 className="text-4xl font-bold text-white sm:text-6xl xl:text-7xl">
                     Take control <br />
-                    on your dreams
+                    of your dreams
                   </h1>
                   <p className="mt-6 text-base text-gray-400 sm:text-xl">
                     Our A.I helps you to interpret your dreams based on your
@@ -330,7 +323,7 @@ export default function Home() {
               <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 px-8 py-6">
                 <p className="text-lg font-semibold text-white">Noahri Böhri</p>
-                <p className="text-sm font-normal text-gray-400">Homeless</p>
+                <p className="text-sm font-normal text-gray-400">Hoeless</p>
               </div>
             </div>
 
@@ -545,11 +538,21 @@ export default function Home() {
 
                 <li>
                   <Link
-                    href="#"
+                    href="/contact"
                     title=""
                     className="font-sans text-sm font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100"
                   >
-                    Contacts
+                    Contact
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    href="/privacyPolicy"
+                    title=""
+                    className="font-sans text-sm font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100"
+                  >
+                    Privacy
                   </Link>
                 </li>
               </ul>
