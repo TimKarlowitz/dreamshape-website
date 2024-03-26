@@ -183,10 +183,10 @@ export default function Home() {
                         </svg>
                         <blockquote className="mt-8">
                             <p className="text-2xl font-medium leading-snug tracking-tight text-gray-900 sm:text-3xl">
-                                “Since I started using Dreamshape, I've gained profound insights into my subconscious mind.“
+                                “Since I started using Dreamshape, Ive gained profound insights into my subconscious mind.“
                             </p>
                             <p className="mt-8 text-lg font-normal leading-8 text-gray-600 sm:text-xl sm:leading-9">
-                            “Thanks to Dreamshape, I now have a structured way to explore and interpret my dreamscapes, identifying patterns and themes over time. This self-awareness journey has been invaluable, offering me a clearer perspective on my waking life and inner self.“
+                            “Thanks to Dreamshape, I now have a structured way to explore and interpret my dreams, identifying patterns and themes over time. This self-awareness journey has been invaluable, offering me a clearer perspective on my waking life and inner self.“
                             </p>
                         </blockquote>
 
