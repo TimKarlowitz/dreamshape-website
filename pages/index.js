@@ -126,28 +126,28 @@ export default function Home() {
 
                     <div className="flex items-center mt-5 space-x-5 sm:mt-0">
                       <a
-                        href="#"
-                        title=""
-                        className="block transition-all duration-200 hover:opacity-80 focus:opacity-80"
+                        href="#" // Replace this with your actual App Store link
+                        title="App Store Link"
+                        className=""
                         role="button"
                       >
                         <img
                           className="w-auto rounded h-14 sm:h-16"
                           src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/4/app-store-button.png"
-                          alt=""
+                          alt="Download on the App Store"
                         />
                       </a>
 
                       <a
-                        href="#"
-                        title=""
-                        className="block transition-all duration-200 hover:opacity-80 focus:opacity-80"
+                        href="https://play.google.com/store/apps/details?id=com.karlowitz.DreamShape"
+                        title="Play Store Link"
+                        className="z-index-20"
                         role="button"
                       >
                         <img
-                          className="w-auto rounded h-14 sm:h-16"
+                          className="w-auto rounded h-14 sm:h-16 z-index-10"
                           src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/4/play-store-button.png"
-                          alt=""
+                          alt="Get it on Google Play"
                         />
                       </a>
                     </div>
@@ -314,7 +314,7 @@ export default function Home() {
       <section className="py-12 bg-white sm:py-16 lg:py-20 xl:py-24">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-12 lg:gap-x-16 xl:gap-x-24">
-            <div className="relative overflow-hidden group lg:order-2 rounded-2xl lg:rounded-3xl">
+            <div className="relative overflow-hidden group lg:order-2 rounded-2xl lg:rounded-3xl transition-all duration-200 hover:-translate-y-1">
               <img
                 className="object-cover w-full h-full transition-all duration-200 group-hover:scale-110"
                 src="https://landingfoliocom.imgix.net/store/collection/saasui/images/testimonial/1/woman-smiling.png"
@@ -518,11 +518,11 @@ export default function Home() {
 
                 <li>
                   <Link
-                    href="#"
+                    href="/terms"
                     title=""
                     className="font-sans text-sm font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100"
                   >
-                    Legal
+                    Terms
                   </Link>
                 </li>
 
@@ -553,6 +553,16 @@ export default function Home() {
                     className="font-sans text-sm font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100"
                   >
                     Privacy
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    href="/delete"
+                    title=""
+                    className="font-sans text-sm font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100"
+                  >
+                    Data Deletion
                   </Link>
                 </li>
               </ul>
