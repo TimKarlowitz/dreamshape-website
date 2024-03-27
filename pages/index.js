@@ -177,7 +177,8 @@ export default function Home() {
               All dreams - One app
             </h2>
             <p className="mt-6 text-lg font-normal text-gray-400">
-               We wanted to create a safe space for YOU to keep track of and explore their dreams. Dreamshape offers a dream journal app that helps you to gain a deeper understanding of your inner self.
+               We wanted to create a safe space for YOU to keep track of and explore your dreams. 
+               Dreamshape offers a dream journal app that helps you to gain a deeper understanding of your inner self.
             </p>
           </div>
 
@@ -203,7 +204,7 @@ export default function Home() {
                 </div>
               </div>
               <h3 className="mt-6 text-lg font-normal text-white">
-                Daily Analytics
+                Personalized Analytics
               </h3>
             </div>
 
@@ -228,7 +229,7 @@ export default function Home() {
                 </div>
               </div>
               <h3 className="mt-6 text-lg font-normal text-white">
-                Unlimited User
+                Unlimited Dreams
               </h3>
             </div>
 
@@ -253,7 +254,7 @@ export default function Home() {
                 </div>
               </div>
               <h3 className="mt-6 text-lg font-normal text-white">
-                Email Alerts
+                Notifications
               </h3>
             </div>
 
@@ -278,7 +279,7 @@ export default function Home() {
                 </div>
               </div>
               <h3 className="mt-6 text-lg font-normal text-white">
-                Custom Themes
+                Custom Categorisation
               </h3>
             </div>
 
@@ -320,8 +321,8 @@ export default function Home() {
               />
               <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 px-8 py-6">
-                <p className="text-lg font-semibold text-white">Noahri Böhri</p>
-                <p className="text-sm font-normal text-gray-400">Hoeless</p>
+                <p className="text-lg font-semibold text-white">Boah Noehri</p>
+                <p className="text-sm font-normal text-gray-400">Awesome Individua</p>
               </div>
             </div>
 
