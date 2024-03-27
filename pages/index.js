@@ -177,9 +177,7 @@ export default function Home() {
               All dreams - One app
             </h2>
             <p className="mt-6 text-lg font-normal text-gray-400">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat.
+               We wanted to create a safe space for YOU to keep track of and explore their dreams. Dreamshape offers a dream journal app that helps you to gain a deeper understanding of your inner self.
             </p>
           </div>
 
@@ -407,7 +405,7 @@ export default function Home() {
                     </a>
 
                     <a
-                      href="#"
+                      href="https://play.google.com/store/apps/details?id=com.karlowitz.DreamShape"
                       title=""
                       className="transition-all duration-200 hover:-translate-y-1"
                       target="_blank"
