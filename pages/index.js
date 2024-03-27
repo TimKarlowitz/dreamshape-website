@@ -80,7 +80,7 @@ export default function Home() {
                 Menu
               </button>
               <a
-                href="#"
+                href="https://play.google.com/store/apps/details?id=com.karlowitz.DreamShape"
                 title=""
                 className="hidden lg:inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-white border-2 border-white hover:bg-gray-300 hover:text-white transition-all duration-200 focus:bg-black focus:text-white"
                 role="button"
@@ -108,8 +108,8 @@ export default function Home() {
                     previous activity and helps you keep track of your dream.
                   </p>
                   <a
-                    href="#"
-                    title=""
+                    href="https://play.google.com/store/apps/details?id=com.karlowitz.DreamShape"
+                    title="Main Download Button"
                     className="inline-flex items-center rounded-lg px-6 py-5 text-base font-semibold text-black transition-all duration-200 bg-[#ffffff] mt-9 hover:bg-[#b497ff] focus:bg-green-400"
                     role="button"
                   >
