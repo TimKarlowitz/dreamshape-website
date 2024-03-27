@@ -315,14 +315,14 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-12 lg:gap-x-16 xl:gap-x-24">
             <div className="relative overflow-hidden group lg:order-2 rounded-2xl lg:rounded-3xl transition-all duration-200 hover:-translate-y-1">
               <img
-                className="object-cover w-full h-full transition-all duration-200 group-hover:scale-110"
-                src="https://landingfoliocom.imgix.net/store/collection/saasui/images/testimonial/1/woman-smiling.png"
+                className="object-cover w-full h-full transition-all duration-200 group-hover:scale-110 z-10"
+                src="https://i.imgur.com/vFnpTvJ.png"
                 alt=""
               />
               <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 px-8 py-6">
                 <p className="text-lg font-semibold text-white">Boah Noehri</p>
-                <p className="text-sm font-normal text-gray-400">Awesome Individua</p>
+                <p className="text-sm font-normal text-gray-400">Awesome Individual</p>
               </div>
             </div>
 
@@ -349,27 +349,7 @@ export default function Home() {
                 </p>
               </blockquote>
 
-              <div className="mt-8 sm:mt-12">
-                <a
-                  href="#"
-                  title=""
-                  className="inline-flex items-center text-sm font-semibold text-blue-600 transition-all duration-200 group hover:text-blue-800 hover:underline"
-                >
-                  Read Success Story
-                  <svg
-                    className="w-5 h-5 ml-1 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2.5"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <line x1="7" y1="17" x2="17" y2="7"></line>
-                    <polyline points="7 7 17 7 17 17"></polyline>
-                  </svg>
-                </a>
-              </div>
+              
             </div>
           </div>
         </div>
