@@ -1,3 +1,4 @@
+import { Footer } from "@/Components/Footer";
 import Head from "next/head";
 
 export default function TermsOfUse() {
@@ -237,6 +238,7 @@ export default function TermsOfUse() {
             any changes.
           </p>
         </div>
+        <Footer />
       </div>
     </>
   );

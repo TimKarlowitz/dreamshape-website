@@ -1,4 +1,5 @@
 // Import React and Next.js components
+import { Footer } from "@/Components/Footer";
 import Head from "next/head";
 
 export default function PrivacyPolicy() {
@@ -105,6 +106,7 @@ export default function PrivacyPolicy() {
           </p>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

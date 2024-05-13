@@ -1,3 +1,5 @@
+import { Footer } from "@/Components/Footer";
+
 export default function AccountDeletionInstructions() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -21,15 +23,16 @@ export default function AccountDeletionInstructions() {
         <li>Click the send button to send your request.</li>
       </ol>
       <p className="mt-4">
-        Alternatively, you can directly
+        Alternatively, you can directly{" "}
         <a
           href="mailto:tim.karlowitz@gmail.com?subject=Dreamshape%20Account%20Deletion%20Request"
           className="text-blue-600 hover:text-blue-800 transition duration-150 ease-in-out"
         >
-           click here 
+          click here{" "}
         </a>
         to compose your email.
       </p>
+      <Footer />
     </div>
   );
 }
