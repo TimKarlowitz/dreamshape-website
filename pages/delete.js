@@ -26,7 +26,7 @@ export default function AccountDeletionInstructions() {
           href="mailto:tim.karlowitz@gmail.com?subject=Dreamshape%20Account%20Deletion%20Request"
           className="text-blue-600 hover:text-blue-800 transition duration-150 ease-in-out"
         >
-          click here
+           click here 
         </a>
         to compose your email.
       </p>

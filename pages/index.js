@@ -80,7 +80,7 @@ export default function Home() {
                 Menu
               </button>
               <a
-                href="#"
+                href="https://play.google.com/store/apps/details?id=com.karlowitz.DreamShape"
                 title=""
                 className="hidden lg:inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-white border-2 border-white hover:bg-gray-300 hover:text-white transition-all duration-200 focus:bg-black focus:text-white"
                 role="button"
@@ -108,8 +108,8 @@ export default function Home() {
                     previous activity and helps you keep track of your dream.
                   </p>
                   <a
-                    href="#"
-                    title=""
+                    href="https://play.google.com/store/apps/details?id=com.karlowitz.DreamShape"
+                    title="Main Download Button"
                     className="inline-flex items-center rounded-lg px-6 py-5 text-base font-semibold text-black transition-all duration-200 bg-[#ffffff] mt-9 hover:bg-[#b497ff] focus:bg-green-400"
                     role="button"
                   >
@@ -177,9 +177,8 @@ export default function Home() {
               All dreams - One app
             </h2>
             <p className="mt-6 text-lg font-normal text-gray-400">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat.
+               We wanted to create a safe space for YOU to keep track of and explore your dreams. 
+               Dreamshape offers a dream journal app that helps you to gain a deeper understanding of your inner self.
             </p>
           </div>
 
@@ -205,7 +204,7 @@ export default function Home() {
                 </div>
               </div>
               <h3 className="mt-6 text-lg font-normal text-white">
-                Daily Analytics
+                Personalized Analytics
               </h3>
             </div>
 
@@ -230,7 +229,7 @@ export default function Home() {
                 </div>
               </div>
               <h3 className="mt-6 text-lg font-normal text-white">
-                Unlimited User
+                Unlimited Dreams
               </h3>
             </div>
 
@@ -255,7 +254,7 @@ export default function Home() {
                 </div>
               </div>
               <h3 className="mt-6 text-lg font-normal text-white">
-                Email Alerts
+                Notifications
               </h3>
             </div>
 
@@ -280,7 +279,7 @@ export default function Home() {
                 </div>
               </div>
               <h3 className="mt-6 text-lg font-normal text-white">
-                Custom Themes
+                Custom Categorisation
               </h3>
             </div>
 
@@ -316,14 +315,14 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-12 lg:gap-x-16 xl:gap-x-24">
             <div className="relative overflow-hidden group lg:order-2 rounded-2xl lg:rounded-3xl transition-all duration-200 hover:-translate-y-1">
               <img
-                className="object-cover w-full h-full transition-all duration-200 group-hover:scale-110"
-                src="https://landingfoliocom.imgix.net/store/collection/saasui/images/testimonial/1/woman-smiling.png"
+                className="object-cover w-full h-full transition-all duration-200 group-hover:scale-110 z-10"
+                src="https://i.imgur.com/vFnpTvJ.png"
                 alt=""
               />
               <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 px-8 py-6">
-                <p className="text-lg font-semibold text-white">Noahri Böhri</p>
-                <p className="text-sm font-normal text-gray-400">Hoeless</p>
+                <p className="text-lg font-semibold text-white">Boah Noehri</p>
+                <p className="text-sm font-normal text-gray-400">Awesome Individual</p>
               </div>
             </div>
 
@@ -350,27 +349,7 @@ export default function Home() {
                 </p>
               </blockquote>
 
-              <div className="mt-8 sm:mt-12">
-                <a
-                  href="#"
-                  title=""
-                  className="inline-flex items-center text-sm font-semibold text-blue-600 transition-all duration-200 group hover:text-blue-800 hover:underline"
-                >
-                  Read Success Story
-                  <svg
-                    className="w-5 h-5 ml-1 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2.5"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <line x1="7" y1="17" x2="17" y2="7"></line>
-                    <polyline points="7 7 17 7 17 17"></polyline>
-                  </svg>
-                </a>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -407,7 +386,7 @@ export default function Home() {
                     </a>
 
                     <a
-                      href="#"
+                      href="https://play.google.com/store/apps/details?id=com.karlowitz.DreamShape"
                       title=""
                       className="transition-all duration-200 hover:-translate-y-1"
                       target="_blank"
