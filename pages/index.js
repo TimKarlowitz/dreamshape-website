@@ -3,6 +3,7 @@ import React from "react";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import { Footer } from "@/Components/Footer";
+import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -10,6 +11,38 @@ export default function Home() {
 
   return (
     <div className="relative bg-gradient-to-b from-gray-950 to-gray-900 h-screen">
+      <Head>
+        <title>
+          Dreamshape - AI powered Dream Journal and Interpreting App
+        </title>
+        <meta
+          name="description"
+          content="Dreamshape is a powerful app for journaling and interpreting your dreams using AI technology. Capture, analyze, and understand your dreams better."
+        />
+        <meta
+          name="keywords"
+          content="dream journal, dream interpreting, AI, dream analysis, dream diary"
+        />
+        <meta name="author" content="Dreamshape Team" />
+
+        <meta
+          property="og:title"
+          content="Dreamshape - Dream Journal and Interpreting App with AI"
+        />
+        <meta
+          property="og:description"
+          content="Dreamshape is a powerful app for journaling and interpreting your dreams using AI technology. Capture, analyze, and understand your dreams better."
+        />
+        <meta property="og:url" content="https://dreamshape.app" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://dreamshape.app/images/favicon.ico"
+        />
+
+        <link rel="icon" href="/images/favicon.ico" />
+        <link rel="canonical" href="https://dreamshape.app" />
+      </Head>
       <header className="absolute inset-x-0 top-0 z-10 w-full h-screen">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 h-screen">
           <div className="flex items-center justify-between h-16 lg:h-20 h-screen">
