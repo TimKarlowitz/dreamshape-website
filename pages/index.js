@@ -149,8 +149,7 @@ export default function Home() {
                     className="inline-flex items-center rounded-lg px-6 py-5 text-base font-semibold text-black transition-all duration-200 bg-[#ffffff] mt-9 hover:bg-[#b497ff] focus:bg-green-400"
                     role="button"
                   >
-                    {" "}
-                    Download now{" "}
+                    Download now
                   </a>
                 </div>
 
