@@ -51,7 +51,7 @@ export default function About() {
               What We Offer
             </h2>
             <p className="text-gray-600 mt-4 text-center">
-              Dreamshape isn’t just an app; it's your personal guide to the
+              Dreamshape isn’t just an app; it&apos;s your personal guide to the
               world of dreams. With our state-of-the-art AI, you can journal,
               analyze, and interpret your dreams effortlessly, uncovering
               patterns and meanings that can transform your waking life.
